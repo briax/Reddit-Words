@@ -6,6 +6,8 @@ public class GameImpl implements Game {
 	private Scanner scanner;
 	private Player player;
 	private StringBuilder sb;
+	private int score = 0;
+	
 	
 	public GameImpl(Player player) {
 		this.player = player;
